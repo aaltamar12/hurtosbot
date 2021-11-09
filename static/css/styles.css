@@ -11789,6 +11789,11 @@ section#contact {
   background-position: center;
 }
 
+.boxed{
+  height: 1000px;
+  background-image: url("../assets/img/map-image.png");
+}
+
 section#contact .container{
   height: 600px;
 }
