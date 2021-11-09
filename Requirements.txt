@@ -1,5 +1,5 @@
 gunicorn
 flask
 ChatterBot
-Spacy
+//Spacy
 Numpy
