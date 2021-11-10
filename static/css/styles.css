@@ -11371,15 +11371,23 @@ p {
 
 .page-section h2.section-heading, .page-section .section-heading.h2 {
   font-size: 2.5rem;
-  margin-top: 0;
+  padding-top: 1rem;
   margin-bottom: 1rem;
 }
-.page-section h3.section-subheading, .page-section .section-subheading.h3 {
+#about{
+  margin: 2rem;
+  padding: 1rem 0rem;
+}
+
+#about .icon{
+  padding: 2rem;
+}
+.page-section p.section-subheading, .page-section .section-subheading.p {
   font-size: 1rem;
   font-weight: 400;
   font-style: italic;
   font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  margin-bottom: 4rem;
+  margin: 1rem;
 }
 
 @media (min-width: 768px) {
