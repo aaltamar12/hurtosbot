@@ -85,6 +85,9 @@ def BOSEH(entrada):
                 respuesta = tagAux["respuestas"]
         return random.choice(respuesta)
 		
+@app.route('/training')
+def training():
+   return  render_template("training.html")
 
 @app.route('/')
 def hello_world():
@@ -96,6 +99,16 @@ def get_bot_response():
 	userText = request.args.get('msg')
 	
 	return BOSEH(userText)
+
+@app.route('/add',methods=['POST'])
+def add():
+    if request.method=='POST':
+        patrones = request.form.getlist('patron[]')
+        respuestas = request.form.getlist('respuesta[]')
+        print('PATRONES: '+str(patrones))
+        print('RESPUESTAS: '+str(respuestas))
+        return '%s' % patrones
+
 if __name__ == "__main__":
 	#app.run(host="0.0.0.0", port="80")
     app.run()
