@@ -11793,15 +11793,10 @@ header.masthead .masthead-heading {
 }
 
 section#bot {
-  max-height: 1000px;
   background-color: #212529;
   background-image: url("../assets/img/map-image.png");
   background-repeat: no-repeat;
   background-position: center;
-}
-
-section#bot .container{
-  height: 500px;
 }
 
 section#bot .section-heading {
