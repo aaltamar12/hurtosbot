@@ -11382,6 +11382,14 @@ p {
 #about .icon{
   padding: 2rem;
 }
+#contrib{
+  margin: 2rem;
+  padding: 1rem 0rem;
+}
+
+#contrib .icon{
+  padding: 0.5rem;
+}
 .page-section p.section-subheading, .page-section .section-subheading.p {
   font-size: 1rem;
   font-weight: 400;
@@ -11790,6 +11798,36 @@ header.masthead .masthead-heading {
 
 .img-brand {
   height: 2.75rem;
+}
+
+.addButton{
+  border: 0px;
+  border-radius: 20px;
+}
+
+.addButton:hover{
+  background-color: #C3C3C3;
+}
+
+#addPatron:hover,i{
+  color: white;
+}
+
+.boxed label{
+  color: white;
+  padding: 0.6rem;
+}
+
+.trainingButton{
+  font-weight: bold;
+  color: white;
+  background-color: #FFBE3C;
+  border: 0px;
+  border-radius: 8px;
+}
+
+.trainingButton:hover{
+  background-color: #EEB036;
 }
 
 section#bot {
