@@ -1,34 +1,40 @@
-# hurtosbot
+# HURTOSBOT
 
-Foobar is a Python library for dealing with word pluralization.
+Es un chatbot web que le permite a los ciudadanos informarse acerca de las seguridad en los barrios de Barranquilla.
 
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+Use the framework [pip](https://pip.pypa.io/en/stable/) to install flask and other dependencies.
 
 ```
-pip install foobar
+pip install flask
+pip install nltk 
+pip install numpy
+pip install tflearn
+pip install tensorflow 
 ```
 
 ## Usage
+Move into folder project
 
 ```python
-import foobar
-
-# returns 'words'
-foobar.pluralize('word')
-
-# returns 'geese'
-foobar.pluralize('goose')
-
-# returns 'phenomenon'
-foobar.singularize('phenomena')
+cd \hurtosbot-main
 ```
 
-## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+Create environment venv in root project:
 
-Please make sure to update tests as appropriate.
+```python
+py -3 -m venv venv
+```
 
-## License
-[MIT](https://choosealicense.com/licenses/mit/)
+Activate environment:
+```python
+venv\Scripts\activate
+```
+
+Run server with environment
+```python
+myapp.py
+```
+
+Open web http:\\127.0.0.1:5000
